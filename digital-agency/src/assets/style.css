@@ -1,0 +1,251 @@
+nav {
+    padding: 20px 0;
+    overflow: hidden;
+}
+.logo-box {
+    float: left;
+
+}
+.logo {
+    margin: 0;
+    height: 80px;
+}
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    float: right;
+    height: 70px;
+    line-height: 70px;
+    text-align:center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+li a {
+    color: #868686;
+    text-transform: uppercase;
+}
+li {
+    display: inline-block;
+    margin-left: 25px;
+    transition: .5s linear;
+}
+li a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    background: #868686;
+    transition: all 0.5s linear;
+}
+li a:hover:after{
+    width: 100%;
+}
+
+/*****FOOOOOTEEEERRR*****/
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    border-top: #267db39d solid 1px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+
+#li{
+    height: 40px;
+}
+
+#ul{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div{
+    display: flex; flex-direction: column; width: 20%;
+}
+
+/****TEXT BLOCKS****/
+
+#block1 {
+    float: left;
+    display: block;
+    width: 70%;
+}
+
+#btn-main {
+    width:150px;
+    height:40px;
+    background: #4270EC;
+    color: white;
+    border: white;
+    border-radius: 10px;
+}
+
+#bloc {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#bloc2 {
+    margin-left: 20px;
+    float: left;
+    display: block;
+    width: 100px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+#train-img{
+    width: 80%;
+    align-self: center;
+    justify-self: center ;
+    border-radius: 5%;
+}
+
+/***ROW BLOCK****/
+
+.row-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-3 {
+    height: 170px;
+    width: 400px;
+    background: linear-gradient(to bottom right, #4270EC, pink);
+    margin: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*****PORTFOLIO*****/
+
+.portfolio-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-head p{
+    width: 50%;
+}
+
+.portfolio-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.photo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.portfolio-img1{
+    background-image: url(./img3.jpg);
+}
+
+.portfolio-img2{
+    background-image: url(./img4.jpg);
+}
+
+.portfolio-img3{
+    background-image: url(./img5.jpg);
+}
+
+span{
+    font-size: 1vw;
+    font-weight: 100;
+}
+
+/****BLOG*****/
+
+.client-head{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.client-feed{
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.blog-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/****feedback***/
+
+#indicator{
+    background-color: black;
+}
+
+
+.carousel-item{
+    height: 20vw;
+}
+
+.carousel-inner{
+    /* background-image: url(/img/Ellipse14.svg); */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.carousel-item p {
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+   
+}
+#next-icon, #prev-icon{
+    background-color: rgba(0, 0, 0, 0.305);
+    border-radius: 20%;
+}
+
+/*******************/
+
+.start-yourprj-block{
+    width: 100%;
+    height: 20vw;
+    border-radius: 20px;
+    margin-top: 10%;
+    background-image: linear-gradient(to right top, #862db9, #e1118b, #ff555a, #ff9938, #e1d44b);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
